@@ -23,4 +23,9 @@ def coursecreate(request):
             }
         return render(request, 'course/index.html', context=context)
 
+def courseedit(request, user_id):
+    context = {
+        'id' : user_id
+    }
+    return render(request, 'course/index.html', context=context)
 

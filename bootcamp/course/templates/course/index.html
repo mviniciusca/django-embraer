@@ -1,7 +1,7 @@
 {% extends "../base.html" %}
 {% block main %}
 {%block page_title %}Homepage{%endblock%}
-
+<p></p>
 {% if name %}
 <h2>Seu nome é {{name}}</h2>
 {% endif %}
@@ -11,5 +11,12 @@
 {% if telephone %}
 <h2>Seu telefone é {{telephone}}</h2>
 {% endif %}
+
+<!-- query parameter -->
+
+{% if id %}
+<h2>Seu id é {{id}}</h2>
+{% endif %}
+
 
 {% endblock %}
