@@ -1,2 +1,2 @@
 /env/
-/bootcamp/db.sqlite3
+/bootcamp/*.sqlite3
