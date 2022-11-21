@@ -1,4 +1,15 @@
 {% extends "../base.html" %}
 {% block main %}
 {%block page_title %}Homepage{%endblock%}
+
+{% if name %}
+<h2>Seu nome é {{name}}</h2>
+{% endif %}
+{% if email %}
+<h2>Seu email é {{email}}</h2>
+{% endif %}
+{% if telephone %}
+<h2>Seu telefone é {{telephone}}</h2>
+{% endif %}
+
 {% endblock %}

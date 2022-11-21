@@ -16,7 +16,11 @@ def coursecreate(request):
     else:
         form = UserForm(request.POST)
         if form.is_valid():
-            form.save()
-        return render(request, 'course/index.html')
+            context = {
+                'name' : form.cleaned_data['name'],
+                'telephone' : form.cleaned_data['telephone'],
+                'email' : form.cleaned_data['email']
+            }
+        return render(request, 'course/index.html', context=context)
 
 
