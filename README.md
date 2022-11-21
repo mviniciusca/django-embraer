@@ -16,7 +16,6 @@ da pasta <strong> course </strong>
 ### Atenção 
 
 Se for seguir o padrão do curso, terá que modificar essas pastas e os arquivos do sistema!
-O arquivo sql (.sqlite3) não está incluso nesse projeto!
 
 ### Pós Instalação
 
