@@ -13,7 +13,10 @@ um ambiente de desenvolvimento para rodar o app.
 Diferente do ensinado no curso, as rotas do app estão sob a pasta <strong>bootcamp</strong> e 
 da pasta <strong> course </strong>
 
+### Atenção 
+
 Se for seguir o padrão do curso, terá que modificar essas pastas e os arquivos do sistema!
+O arquivo sql (.sqlite3) não está incluso nesse projeto!
 
 ### Pós Instalação
 
