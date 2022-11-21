@@ -1,0 +1,35 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Django :: Course - Homepage</title>
+    <link rel="stylesheet" href="{% static '/css/global.css' %}">
+</head>
+<body>
+<div class="content">
+    <header>
+        <div class="logo">
+            <span>
+            <ion-icon name="cube-outline"></ion-icon>
+        </span>
+            Django Bootcamp XP</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="/course"><ion-icon name="home-outline"></ion-icon>Homepage</a></li>
+                <li><a href="/course/create"><ion-icon name="person-add-outline"></ion-icon>Criar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block main %}
+
+            {%block page_title %}{%endblock%}
+
+        {% endblock %}
+    </main>
+    <footer>2022 - Bootcamp XP / Embraer  mviniciusca@gmail.com </footer>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
